@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         self.sceneView.session.run(comfiguration)
     }
 
-
+    @IBAction func add(_ sender: Any) {
+        let node = SCNNode()
+        node.geometry = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0.1)
+        node.geometry?.firstMaterial?.diffuse.contents = UIColor.green
+        self.sceneView.scene.rootNode.addChildNode(node)
+        
+    }
+    
 }
 

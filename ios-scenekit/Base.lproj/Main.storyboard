@@ -21,11 +21,22 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kjy-m0-P7I">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qn3-RJ-XFK">
+                                <rect key="frame" x="361" y="814" width="53" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GBt-sq-XFS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="qn3-RJ-XFK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="1Ic-fP-pO3"/>
                             <constraint firstItem="kjy-m0-P7I" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7iu-6u-MDt"/>
+                            <constraint firstItem="qn3-RJ-XFK" firstAttribute="bottom" secondItem="kjy-m0-P7I" secondAttribute="bottom" id="9bl-68-SJi"/>
                             <constraint firstItem="kjy-m0-P7I" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mwb-a6-vfJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qn3-RJ-XFK" secondAttribute="trailing" symbolic="YES" id="pF9-G6-HW9"/>
                             <constraint firstItem="kjy-m0-P7I" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="s2C-SL-GKo"/>
                             <constraint firstItem="kjy-m0-P7I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="u2n-pq-0Cu"/>
                         </constraints>
