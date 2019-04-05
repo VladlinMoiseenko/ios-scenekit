@@ -1,18 +1,17 @@
-//
-//  ViewController.swift
-//  ios-scenekit
-//
-//  Created by Admin on 05/04/2019.
-//  Copyright © 2019 Admin. All rights reserved.
-//
-
 import UIKit
+import ARKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var sceneView: ARSCNView!
+    
+    let comfiguration = ARWorldTrackingConfiguration()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
+        self.sceneView.session.run(comfiguration)
     }
 
 
