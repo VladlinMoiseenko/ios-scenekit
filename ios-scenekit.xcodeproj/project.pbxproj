@@ -56,13 +56,13 @@
 		84CA001C22579D6200CE8759 /* ios-scenekit */ = {
 			isa = PBXGroup;
 			children = (
-				84CA001D22579D6200CE8759 /* AppDelegate.swift */,
+				842A15562257A815000747E6 /* todo.swift */,
 				84CA001F22579D6200CE8759 /* ViewController.swift */,
 				84CA002122579D6200CE8759 /* Main.storyboard */,
 				84CA002422579D6400CE8759 /* Assets.xcassets */,
 				84CA002622579D6400CE8759 /* LaunchScreen.storyboard */,
 				84CA002922579D6400CE8759 /* Info.plist */,
-				842A15562257A815000747E6 /* todo.swift */,
+				84CA001D22579D6200CE8759 /* AppDelegate.swift */,
 			);
 			path = "ios-scenekit";
 			sourceTree = "<group>";
